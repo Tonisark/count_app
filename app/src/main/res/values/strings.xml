@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Testpro</string>
+    <string name="correct_year">correct year</string>
+    <string name="birth_year">Birth year</string>
+    <string name="count">Count</string>
+</resources>
