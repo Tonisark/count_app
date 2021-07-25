@@ -39,9 +39,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count)
             {
+                //here we count age
                 int k = Integer.parseInt(correctyear.getText().toString());
                 int e = Integer.parseInt(Birthyear.getText().toString());
                 int age=  k-e  ;
+                // here we show age
                 textView.setText(age);
             }
 
@@ -60,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 int e= Integer.parseInt(Birthyear.getText().toString());
 
 
-
+                // here we check if the years are same we show this  /** created bt Toni stark/Toni sasrk **/
                 if (k == e)
                 {
                     Toast.makeText(MainActivity.this, "Please don't write same year", Toast.LENGTH_SHORT).show();
