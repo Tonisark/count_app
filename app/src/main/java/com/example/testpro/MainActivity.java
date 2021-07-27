@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         super.onCreate(savedInstanceState);
 
-        Counter = findViewById(R.id.Counter1);
+        Counter = findViewById(R.id.Counter);
         correctyear = findViewById(R.id.correct_year);
         Birthyear = findViewById(R.id.Birth_year);
 
