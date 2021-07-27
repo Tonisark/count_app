@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/white"
+    android:background="@drawable/wallwall"
     android:orientation="vertical" >
 
     <EditText
@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:layout_marginTop="24dp"
-        android:background="@color/gray1"
+        android:background="@color/Gray"
         android:gravity="center"
         android:hint="@string/correct_year"
         android:importantForAutofill="no"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"
-        android:background="@color/gray1"
+        android:background="@color/Gray"
         android:gravity="center"
         android:hint="@string/birth_year"
         android:importantForAutofill="no"
@@ -40,5 +40,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:textAllCaps="false" />
+
+    
+
 
 </LinearLayout>
