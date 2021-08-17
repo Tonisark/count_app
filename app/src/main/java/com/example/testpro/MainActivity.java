@@ -1,4 +1,4 @@
-/** created bt Toni stark/Toni sasrk */
+/** created by Toni stark/Toni sasrk */
 package com.example.testpro;
 
 import androidx.appcompat.app.AppCompatActivity;
